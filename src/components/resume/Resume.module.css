@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 7em 0 7em;
+}
+
+.img_profile img {
+  height: 250px;
+  width: 250px;
+  box-shadow: none;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.text {
+  padding: 0.5em;
+}
+
+.pdf_icon {
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 1em;
+}
+
+.links1,
+.links2 {
+  height: 52px;
+  width: 52px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.links1:hover,
+.links2:hover {
+  transform: rotate(-360deg);
+}
+
+.links1 {
+  background-image: url(../../images/githubff2.svg);
+}
+
+.links2 {
+  background-image: url(../../images/linkedinff2.svg);
+}
+
+.transparente {
+  height: 52px;
+  width: 52px;
+  box-shadow: none;
+  border-radius: 0;
+  transition: ease-in-out 0.3s;
+}
+
+.transparente:hover {
+  opacity: 0;
+}
+
+.caricatureBigHead {
+  height: 400px;
+  width: 400px;
+}
+
+@media (max-width: 650px) {
+
+  /* .caricatureBigHead {
+    display: none;
+  } */
+  .container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+}

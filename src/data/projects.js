@@ -1,0 +1,5 @@
+export const projectsList = [
+  { id: 1, name: "API de pedidos", githubUrl: "https://github.com/GeovanniSantos1/GeoAPI-deploy", explanation: "Projeto desenvolvido utilizando C#, .NET. A proposta foi fazer uma API para cadastro de fornecedore, produtos para um sistema online. ", pageLink: "", img: "https://raw.githubusercontent.com/GeovanniSantos1/GeovanniSantos1/main/API%20-%20Geovanni.png" },
+  { id: 2, name: "página de login", githubUrl: "", explanation: "Página de login feita com react, utilizando hook useState para alterar dados do formulário e react-router-dom para utilizar rotas.", pageLink: "", img: "https://raw.githubusercontent.com/nikolassco/asset/main/Page%20Login%20-%20Google%20Chrome%2007_11_2022%2019_41_12.png" },
+  { id: 3, name: "projeto em desenvolvimento", githubUrl: "/projects", explanation: "Projeto ainda em andamento, mas que em breve será adicionado aqui ao Portfólio.", pageLink: "/projects", img: "https://raw.githubusercontent.com/nikolassco/asset/main/EM%20BREVE%20EM%20BREVE%20EM%20BREVE%20-%20Quadro%20branco%20-%20Google%20Chrome%2016_08_2022%2018_27_45%20(2).png" },
+];
